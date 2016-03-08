@@ -1,33 +1,38 @@
 {
-    "name": "shorty",
-    "description": "An asynchronous SMPP client and server built on Node.js.",
-    "version": "0.5.5",
-    "directories": { "lib": "./lib" },
-    "main" : "./lib/shorty",
-    "maintainers": [
-        {
-            "name": "Evan Coury",
-            "web": "https://github.com/EvanDotPro"
-        },
-        {
-            "name": "Justin Martin",
-            "web": "https://github.com/TheFrozenFire"
-        }
-    ],
-    "contributors": [
-        {
-            "name": "Ben Youngblood",
-            "web": "https://github.com/bjyoungblood"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/roave/shorty.git"
+  "name": "shorty",
+  "description": "An asynchronous SMPP client and server built on Node.js.",
+  "version": "0.5.5",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/shorty",
+  "maintainers": [
+    {
+      "name": "Evan Coury",
+      "web": "https://github.com/EvanDotPro"
     },
-    "licenses": [
-        {
-            "type": "GPLv3",
-            "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
-        }
-    ]
+    {
+      "name": "Justin Martin",
+      "web": "https://github.com/TheFrozenFire"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ben Youngblood",
+      "web": "https://github.com/bjyoungblood"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roave/shorty.git"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ],
+  "dependencies": {
+    "split": "^1.0.0"
+  }
 }
